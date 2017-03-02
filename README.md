@@ -16,7 +16,7 @@ Bluemix with only a couple clicks. Try it out for yourself right now:
 
 Install all the required CLI tools: [Bluemix CLI](http://clis.ng.bluemix.net/), [cf CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html), [git](https://git-scm.com/downloads), etc. 
 
-More details in Bluemix docs [CLI and Dev Tools](bluemix.net/docs/cli/index.html).
+More details in Bluemix docs [CLI and Dev Tools](https://bluemix.net/docs/cli/index.html).
 
 Log into Bluemix:
 
@@ -38,7 +38,7 @@ Clone this repository locally:
 
 For example:
 
-`git clone https://github.com/mzuliani-ibm/iotp-starter`
+`git clone https://github.com/ibm-watson-iot/iot-platform-bluemix-starter`
 
 Push the app to Bluemix:
 
