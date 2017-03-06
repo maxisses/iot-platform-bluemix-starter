@@ -3,8 +3,9 @@ Watson IoT Platform Starter for Bluemix with Node-RED Application
 
 ### Watson IoT Platform and Node-RED in Bluemix
 
-This repository is an example Node-RED application that runs in a Node.js runtime that can be deployed into
-Bluemix with only a couple clicks. Try it out for yourself right now:
+Get started with [IBM Watson IoT platform](https://www.ibm.com/internet-of-things/platform/watson-iot-platform/) in Bluemix using this [Node-RED](http://nodered.org/) sample application that runs in a Node.js runtime. With the Starter, you can quickly simulate an Internet of Things device and generate sample data. Once you've deployed the [IBM Watson IoT Platform service](https://bluemix.net/catalog/services/internet-of-things-platform/), Node-RED and Cloudant data store using the instructions below, follow the Bluemix doc [Getting started with Watson IoT Platform Starter](https://www.ng.bluemix.net/docs/#starters/IoT/iot500.html#iot500) to learn how to register the sample device from withing Watson IoT Platform, modify the Node-RED flow, create cards, and begin analyzing and displaying data in the Watson IoT Platform dashboard.
+
+Try it out for yourself right now:
 
 ### Deploy through Bluemix devOps
 
