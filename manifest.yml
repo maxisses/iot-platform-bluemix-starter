@@ -5,10 +5,3 @@ applications:
   - iotp-starter
   env:
     NODE_RED_STORAGE_NAME: iotp-starter-cloudantNoSQLDB
-declared-services:
-    iotp-starter-cloudantNoSQLDB:
-      label: cloudantNoSQLDB
-      plan:  Lite
-    iotp-starter:
-      label: iotf-service
-      plan:  iotf-service-free
