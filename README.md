@@ -9,7 +9,7 @@ Try it out for yourself right now:
 
 ### Deploy through Bluemix devOps
 
-[![Create toolchain](https://bluemix.net/devops/graphics/create_toolchain_button.png)](https://bluemix.net/devops/setup/deploy?repository=) (via Bluemix devOps Toolchains and Delivery Pipelines)
+[![Create toolchain](https://bluemix.net/devops/graphics/create_toolchain_button.png)](https://bluemix.net/devops/setup/deploy?repository=) (creates a new Toolchain and Delivery Pipeline for deployment)
 
 ### Deploy from local command-line
 
