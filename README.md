@@ -9,9 +9,7 @@ Try it out for yourself right now:
 
 ### Deploy through Bluemix devOps
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button_x2.png)](https://bluemix.net/deploy?repository=) (via JazzHub)
-
-[![Create toolchain](https://bluemix.net/devops/graphics/create_toolchain_button.png)](https://bluemix.net/devops/setup/deploy?repository=) (via Continuous Delivery)
+[![Create toolchain](https://bluemix.net/devops/graphics/create_toolchain_button.png)](https://bluemix.net/devops/setup/deploy?repository=) (creates a new Toolchain and Delivery Pipeline for deployment)
 
 ### Deploy from local command-line
 
