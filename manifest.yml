@@ -1,5 +1,5 @@
 applications:
-- memory: 256M
+- memory: 192M
   services:
   - iotp-starter-cloudantNoSQLDB
   - iotp-starter
