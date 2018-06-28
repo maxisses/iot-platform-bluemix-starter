@@ -1,7 +1,7 @@
 [{
 	"id": "be44b33.54f8e5",
 	"type": "ibmiot in",
-	"z": "a9a94663.161e38",
+	"z": "af95072d.e7af48",
 	"authentication": "boundService",
 	"apiKey": "",
 	"inputType": "evt",
@@ -31,7 +31,7 @@
 }, {
 	"id": "ff738e7a.838fd",
 	"type": "debug",
-	"z": "a9a94663.161e38",
+	"z": "af95072d.e7af48",
 	"name": "",
 	"active": true,
 	"tosidebar": true,
@@ -44,7 +44,7 @@
 }, {
 	"id": "19fcf36c.877ab5",
 	"type": "function",
-	"z": "a9a94663.161e38",
+	"z": "af95072d.e7af48",
 	"name": "",
 	"func": "msg.payload =\n{\nX : msg.payload.d.ax,\nY : msg.payload.d.ax,\nZ : msg.payload.d.ax,\nSENSORID : msg.payload.d.id\n}\nreturn msg;",
 	"outputs": 1,
@@ -52,12 +52,12 @@
 	"x": 320,
 	"y": 300,
 	"wires": [
-		["ff738e7a.838fd", "f5fbe9a3.2816b8"]
+		["ff738e7a.838fd", "825c2340.1eb968"]
 	]
 }, {
 	"id": "f5fbe9a3.2816b8",
 	"type": "cloudant out",
-	"z": "a9a94663.161e38",
+	"z": "af95072d.e7af48",
 	"name": "",
 	"cloudant": "",
 	"database": "shake",
@@ -67,4 +67,24 @@
 	"x": 490,
 	"y": 420,
 	"wires": []
+}, {
+	"id": "825c2340.1eb968",
+	"type": "delay",
+	"z": "af95072d.e7af48",
+	"name": "",
+	"pauseType": "rate",
+	"timeout": "5",
+	"timeoutUnits": "seconds",
+	"rate": "10",
+	"nbRateUnits": "1",
+	"rateUnits": "second",
+	"randomFirst": "1",
+	"randomLast": "5",
+	"randomUnits": "seconds",
+	"drop": false,
+	"x": 420,
+	"y": 360,
+	"wires": [
+		["f5fbe9a3.2816b8"]
+	]
 }]
