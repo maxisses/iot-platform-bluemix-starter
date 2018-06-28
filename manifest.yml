@@ -1,5 +1,5 @@
 applications:
-- memory: 192M
+- memory: 224M
   services:
   - iotp-starter-cloudantNoSQLDB
   - discover-iot-try-service
