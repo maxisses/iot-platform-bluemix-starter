@@ -2,6 +2,6 @@ applications:
 - memory: 192M
   services:
   - iotp-starter-cloudantNoSQLDB
-  - iotp-starter
+  - discover-iot-try-service
   env:
     NODE_RED_STORAGE_NAME: iotp-starter-cloudantNoSQLDB
