@@ -46,7 +46,7 @@
 	"type": "function",
 	"z": "af95072d.e7af48",
 	"name": "",
-	"func": "msg.payload =\n{\nX : msg.payload.d.ax,\nY : msg.payload.d.ax,\nZ : msg.payload.d.ax,\nSENSORID : msg.payload.d.id\n}\nreturn msg;",
+	"func": "msg.payload =\n{\nX : msg.payload.d.ax,\nY : msg.payload.d.ax,\nZ : msg.payload.d.ax,\nSENSORID : msg.payload.d.id,\nCLASS : 0\n}\nreturn msg;",
 	"outputs": 1,
 	"noerr": 0,
 	"x": 320,
