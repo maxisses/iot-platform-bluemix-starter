@@ -22,7 +22,7 @@ stages:
         script: |-
           #!/bin/bash
           cf create-service cloudantNoSQLDB Lite iotp-starter-cloudantNoSQLDB
-          cf create-service iotf-service iotf-service-free iotp-starter
+          cf create-service iotf-service iotf-service-free discover-iot-try-service
           cf push "${CF_APP}"
           # View logs
           cf logs "${CF_APP}" --recent
